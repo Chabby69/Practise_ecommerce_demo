@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { OrderComponent } from './order/order.component';
 
+
 const routes: Routes = [
   {
     path: "", component: HomeComponent

@@ -1,0 +1,54 @@
+.navbar {
+    padding: 15px;
+    
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.form-inline {
+    display: flex;
+    margin-left: auto;
+}
+
+
+/* Optional: Style the search input and button */
+.form-control {
+    margin-right: 10px;
+    align-self: center;
+}
+
+.btn-outline-success {
+    color: #baf8fd;
+    border-color: #baf8fd;
+}
+
+.btn-outline-success:hover {
+    background-color: #baf8fd;
+    border-color: #000000;
+    color: #000000;
+}
+
+.form-inline{
+    margin: auto;
+}
+
+.navbar-collapse{
+    display: flex;
+}

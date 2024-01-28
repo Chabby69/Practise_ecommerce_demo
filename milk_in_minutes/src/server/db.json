@@ -2,29 +2,189 @@
     "products": [
         {
             "id": 1,
-            "category": "MILK",
-            "image": "https://images.unsplash.com/photo-1635436338433-89747d0ca0ef?q=80&w=3643&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "item": "Whole Milk",
+            "category":"Milk",
+            "image": "../assets/Milk.jpg"
         },
         {
             "id": 2,
-            "category": "CHEESE",
-            "image": "https://images.unsplash.com/photo-1619860862294-1e96abc03d5b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNoZWVzZXxlbnwwfDB8MHx8fDI%3D"
+            "item": "2% Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
         },
         {
             "id": 3,
-            "category": "YOGURT",
-            "image": "https://images.unsplash.com/photo-1562114808-b4b33cf60f4f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eW9ndXJ0fGVufDB8MHwwfHx8Mg%3D%3D"
+            "item": "Low-fat Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
         },
         {
             "id": 4,
-            "category": "BUTTER",
-            "image": ""
+            "item": "Organic Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 5,
+            "item": "Skimmed Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 6,
+            "item": "Raw Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 7,
+            "item": "Lactose-free Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 8,
+            "item": "Flavored Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 9,
+            "item": "Full cream Milk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 10,
+            "item": "Buttermilk",
+            "category":"Milk",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 11,
+            "item": "Salted Butter",
+            "category":"Butter",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 12,
+            "item": "Unsalted Butter",
+            "category":"Butter",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 13,
+            "item": "Cultured Butter",
+            "category":"Butter",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 14,
+            "item": "Cultured & Salted Butter",
+            "category":"Butter",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 15,
+            "item": "Clarifed Butter",
+            "category":"Butter",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 16,
+            "item": "Natural Yogurt",
+            "category":"Yogurt",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 17,
+            "item": "Greek Yogurt",
+            "category":"Yogurt",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 18,
+            "item": "Blueberry Flavoured Yogurt",
+            "category":"Yogurt",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 19,
+            "item": "Strawberry Flavoured Yogurt",
+            "category":"Yogurt",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 20,
+            "item": "Mango Flavoured Yogurt",
+            "category":"Yogurt",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 21,
+            "item": "Banana Flavoured Yogurt",
+            "category":"Yogurt",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 22,
+            "item": "Parmesan Cheese",
+            "category":"Cheese",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 23,
+            "item": "White Mould Cheese",
+            "category":"Cheese",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 24,
+            "item": "Cheddar Cheese",
+            "category":"Cheese",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 25,
+            "item": "Mozzerella Cheese",
+            "category":"Cheese",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 26,
+            "item": "Pure Cream",
+            "category":"Cream",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 27,
+            "item": "Double Cream",
+            "category":"Cream",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 28,
+            "item": "Thickend Cream",
+            "category":"Cream",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 29,
+            "item": "Clotted Cream",
+            "category":"Cream",
+            "image": "../assets/Butter.jpg"
+        },
+        {
+            "id": 30,
+            "item": "Sour Cream",
+            "category":"Cream",
+            "image": "../assets/Butter.jpg"
         }
     ],
 
     "users":[
         {
-            "id": 1,
+            "id": "charan@user.com",
             "category": "CUSTOMER",
             "name": "CHARAN",
             "email": "charan@user.com",
@@ -32,7 +192,7 @@
             
         },
         {
-            "id": 2,
+            "id": "admin@seller.com",
             "category": "ADMIN",
             "name": "ADMIN",
             "email": "admin@seller.com",

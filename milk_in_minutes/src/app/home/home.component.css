@@ -1,0 +1,80 @@
+body{
+	margin: auto;
+	padding: auto;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+    background-color: beige;
+    /* background: linear-gradient(to bottom,  beige,  #e4dcb8, #f5f5dc); */
+}
+
+
+.card-container {
+    background-color: beige;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*Allow cards to wrap to the next line if the container is not wide enough*/
+    justify-content:space-evenly;
+    /* Adjust as needed to control the spacing between cards*/
+}
+
+
+.example-card {
+    background-color: #a8e6cf;
+    display: flex;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset ;
+    transition: all 0.4s; /* Add a transition for all properties with a duration of 0.4s */
+}
+
+
+.example-card:hover {
+    opacity: 1;
+    background-color: #dcedc1;
+    display: flex;
+    border-radius: 20px;
+    transform: scale(1.2);
+    transition: all 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-container:hover .example-card:not(:hover) {
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+
+
+.example-header-image {
+    /* background-image: url(''); */
+    background-size: cover;
+    
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.boxy {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.icons {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
+}
